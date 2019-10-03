@@ -1,5 +1,5 @@
 import numpy as np
+import pandas as pd
 
-infile = "/Users/yuya/Downloads/data.csv"
-data = np.loadtxt(infile, delimiter=",")
-print(data)
+infile = "data/data.csv"
+data = np.loadtxt(infile, skiprows=6)
